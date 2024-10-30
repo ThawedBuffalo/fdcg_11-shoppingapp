@@ -1,7 +1,10 @@
-import 'package:shopping_list/models/grocery_item.dart';
-import 'package:shopping_list/data/categories.dart';
 
-const groceryItems = [
+
+import '../models/category.dart';
+import '../models/grocery_item.dart';
+import 'categories.dart';
+
+var groceryItems = [
   GroceryItem(
       id: 'a',
       name: 'Milk',
